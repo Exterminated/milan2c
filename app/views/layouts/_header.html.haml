@@ -1,0 +1,17 @@
+%header.navbar.navbar-fixed-top.navbar
+	.navbar 
+		.container
+			
+			%nav
+			%ul.navbar-left			
+				%li= link_to "MILAN2C", '/welcome/index/'
+			%ul.navbar-left			
+				%li= link_to "Транслированные программы", '/translations'
+			%ul.navbar-left
+				%li= link_to "Ключевые слова", reservedkeyword_path(1)
+			%ul.navbar-left
+				%li= link_to "Зарезервированные символы",reservedsymbol_path(1)
+			%ul.navbar-left
+				%li=link_to "Помощь", welcome_help_path(1)
+			%ul.navbar-left
+			%p==#{link_to 'Devjatkin Fedor', 'https://vk.com/fedor_devjatkin'}

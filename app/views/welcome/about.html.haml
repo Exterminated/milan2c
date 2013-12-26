@@ -1,0 +1,8 @@
+=render partial: "/layouts/header"
+%h1 О создателе
+.center
+	%table
+		%th=image_tag("qr-code.gif", size: "148x148")
+		%p== Связатся со мной можно #{link_to 'так', 'https://vk.com/fedor_devjatkin'}!
+		%th Транслятор написан Фёдором Девяткиным
+=render partial: "/layouts/footer"
